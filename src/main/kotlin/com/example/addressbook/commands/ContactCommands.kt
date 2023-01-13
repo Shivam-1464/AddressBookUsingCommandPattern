@@ -26,12 +26,12 @@ fun ContactUpdateRequest.toUpdateContact() =
         lname = this@toUpdateContact.lname
     )
 
-fun ContactUpdateRequest.toReqContact() =
-    Contact(
-        id = this@toReqContact.id,
-        fname = this@toReqContact.fname,
-        lname = this@toReqContact.lname
-    )
+//fun ContactUpdateRequest.toReqContact() =
+//    Contact(
+//        id = this@toReqContact.id,
+//        fname = this@toReqContact.fname,
+//        lname = this@toReqContact.lname
+//    )
 fun GroupCreateRequest.toGroup() =
     Group(
         id = UUID.randomUUID(),
